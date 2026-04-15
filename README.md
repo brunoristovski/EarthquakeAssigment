@@ -2,11 +2,11 @@ Zdravo ova e Assigment zadaden od strana na Codeit Solution
 
 Upatstvo za kako pravilno da se startuva kodot:
 
--Se simnuva kako zip file
--Se ranuva celiot proekt vo Intellij,stom kje se otvori potrebno e da se postavi SDK && JDK 17 verzija,zatoa sto vo pom.xml file e staveno deka raboti so niv.
--Posle stavanje na pravilen SDK && JDK 17 verzija, treba da se vleze vo backend papkata vo terminal i so docker da se iskoristi komanda linija ( docker compose up -d),
+Se simnuva kako zip file
+Se ranuva celiot proekt vo Intellij,stom kje se otvori potrebno e da se postavi SDK && JDK 17 verzija,zatoa sto vo pom.xml file e staveno deka raboti so niv.
+Posle stavanje na pravilen SDK && JDK 17 verzija, treba da se vleze vo backend papkata vo terminal i so docker da se iskoristi komanda linija ( docker compose up -d),
   so ova kje se sozdade kontenjer za Postgres bazata koja lokalno kje raboti.
--Dokolku sakate da se povrzete na bazata preku Intellij(Data base manager - gore desno kjos) - potrebno da gi poplnite polinjata staveni vo docker-compose.yml koj se naogja vo backend papkata.
+Dokolku sakate da se povrzete na bazata preku Intellij(Data base manager - gore desno kjos) - potrebno da gi poplnite polinjata staveni vo docker-compose.yml koj se naogja vo backend papkata.
 
 Za da se ranuva backend delot treba da bidete vnimatelni zatoa sto postoi dev-properties i test-properties koj treba da navede koj sakate da go koristite.
 
