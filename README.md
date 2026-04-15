@@ -28,20 +28,9 @@ Spored testovite treba 2h ponapred na posakuvaniot lokalen datum da se stavi za 
 
 Dokolku sakate da se povrzete na bazata preku Intellij(Data base manager - gore desno kjos) - potrebno da gi poplnite polinjata staveni vo docker-compose.yml koj se naogja vo backend papkata.
 
-Za da se ranuva backend delot treba da bidete vnimatelni zatoa sto postoi dev-properties i test-properties koj treba da navede koj sakate da go koristite.
-
-Ako sakate da ja vklucite aplikacijata i da raboti treba:
-  Vo application properties da se stavi sledniov kod - spring.profiles.active=dev
-  A pri ranuvanje na aplikacijata da se odbere glavnata klasa.
-
-Ako sakate da ja testirate aplikacijata treba:
+Ako sakate da ja Testirate aplikacijata treba:
 Vo application properties da se stavi spring.profiles.active=test
-A pri ranuvanje da se odbere klasata za test za run
-
-Na kraj ostanuva front end delot.
-Dokolku ste go izvrsile ova so pomos na cd se vrakjate na glavniot folder i se navigirate vo frontend i sledna navigacija vo papkata earthquake_assigment
-Posle navigacijata vleguvate vo terminal treba sledniot kod - npm run dev za da startne aplikacijata.
-
+A pri ranuvanje da se odbere klasata za test za run koja se naogja vo backend/test/java/imeto_na_klasata.java
 
 
 Uzivajte vo koristenjeto na aplikacijata za Zemjotresi, slobodno iskomentirajte dobri/losi nacin na kodiranje ili bugs.
